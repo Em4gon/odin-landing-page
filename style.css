@@ -6,7 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #999999;
+    background-color: #ffffff;
 }
 html, body {
     margin: 0; 
@@ -20,10 +20,13 @@ html, body {
     padding-left: 48px;
     padding-right: 0px;
 }
+.elem{
+    max-width: 150px;
+}
 .elem img{
     max-width: 150px;
     max-height: 150px;
-    /* border: #e9e9e9cb 5px solid; */
+    border: #3882F6 3px solid;
     border-radius: 10px;
 }
 ul{
@@ -35,7 +38,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: #1f2937;
+    color: #e5e7eb;
 }
 .header{
     color: #f9faf8;
@@ -43,17 +46,9 @@ a{
 .topbar{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-     align-items: center;
+    align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
-    /* display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    flex-flow: nowrap;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between; */
 }
 .logo{
     display: flex;
@@ -64,11 +59,18 @@ a{
 .header{
     background-color: #1f2937;
 }
+
 .sub-header, .topbar, .body{
     margin-left: 200px;
     margin-right: 200px;
 }
 
+.body .quote{
+    margin: 0px;
+    margin-top: 50px;
+    background-color: #e5e7eb;
+    background-color: red;
+}
 .sub-header{
     display: flex;
     flex: 1;
@@ -105,8 +107,8 @@ a{
     flex-shrink: 1;
     justify-content: space-around;
     margin: 20px;
-    
 }
+
 
 .body .title{
     display: flex;
@@ -116,3 +118,5 @@ a{
     justify-content: center;
     margin: 36px;
 }
+
+
